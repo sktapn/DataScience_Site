@@ -7,28 +7,36 @@ st.set_page_config(
     layout="centered"
 )
 
+# Espaçamento inicial
+st.write("\n")
+
 # Título
 st.title("🚀 Em Breve!")
 
-# Mensagem
+# Mensagem centralizada
 st.write(
     """
-    Nosso site está em construção e estará disponível em breve! 🚧
+    Nosso site está em construção e estará disponível em breve! 🚧  
     """
 )
 
-# Imagem ou GIF opcional
-st.image(
-    "https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif", 
-    caption="Estamos trabalhando para trazer algo incrível!",
-    use_column_width=True
-)
+# Espaçamento
+st.write("\n")
 
-# Rodapé
+# Centralizar imagem
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    st.image(
+        "https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif", 
+        caption="Estamos trabalhando para trazer algo incrível!",
+        use_column_width=True
+    )
+
+# Rodapé com link
 st.markdown(
     """
     ---
-    Siga-nos para atualizações:  
-    - [Github](https://github.com/sktapn/DataScience_HandsON)  
+    ### Siga-nos para atualizações:  
+    - 🌟 [GitHub](https://github.com/sktapn/DataScience_HandsON)
     """
 )
