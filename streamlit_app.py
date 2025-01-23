@@ -16,7 +16,7 @@ with col2:
     # Mensagem centralizada
     st.write(
         """
-        Nosso site está em construção e estará disponível em breve! 🚧  
+        Nosso site está em construção! 🚧  
         """
     )
     
@@ -27,11 +27,4 @@ with col2:
         use_container_width=True
     )
 
-# Rodapé com link
-st.markdown(
-    """
-    ---
-    ### Siga-nos para atualizações:  
-    - 🌟 [GitHub](https://github.com/sktapn/DataScience_HandsON)
-    """
-)
+
