@@ -16,7 +16,7 @@ st.title("🚀 Em Breve!")
 # Mensagem centralizada
 st.write(
     """
-    Nosso site está em construção e estará disponível em breve! 🚧  
+    Nosso site está em construção e estará disponível em breve! 🚧
     """
 )
 
@@ -29,7 +29,7 @@ with col2:
     st.image(
         "https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif", 
         caption="Estamos trabalhando para trazer algo incrível!",
-        use_column_width=True
+        use_container_width=True  # Parâmetro atualizado
     )
 
 # Rodapé com link
