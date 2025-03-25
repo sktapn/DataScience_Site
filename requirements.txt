@@ -4,3 +4,4 @@ numpy
 seaborn
 plotly
 pillow
+joblib
