@@ -5,3 +5,4 @@ seaborn
 plotly
 pillow
 joblib
+imbalanced-learn
